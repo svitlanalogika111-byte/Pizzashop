@@ -1,0 +1,1037 @@
+
+#cart {
+    position: fixed;
+    top: 0;
+    right: -350px; /* схований */
+    width: 300px;
+    height: 100%;
+    background: white;
+    box-shadow: -5px 0 10px rgba(0,0,0,0.3);
+    padding: 20px;
+    transition: 0.4s;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+#cart.active {
+    right: 0; /* показати */
+}
+
+#cart{
+    position: fixed;
+    right: -350px;
+    transition: 0.4s;
+}
+
+#cart.active{
+    right: 0;
+}
+#closeCart{
+    float: right;
+    border: none;
+    background: red;
+    color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#closeCart:hover{
+    background: darkred;
+}
+#cartBtn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 1001;
+}
+.kh{
+    /* image 20 */
+
+position: absolute;
+width: 85px;
+height: 85px;
+left: 1130px;
+top: 21px;
+
+background: url(image.png);
+
+}
+.k1{
+    /* image 12 */
+
+position: absolute;
+width: 55px;
+height: 55px;
+left: 43px;
+top: 172px;
+
+background: url(image.png);
+
+}
+.style{
+    /* Pizza shop */
+
+    
+/* Pizza shop */
+
+font-family: '';
+position: absolute;
+width: 463.85px;
+height: 131.87px;
+left: 395px;
+top: -70.13px;
+
+font-family: 'Kaushan Script';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 139px;
+
+background: linear-gradient(90deg, #000000 0%, #757575 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+border: 1px solid #000000;
+transform: rotate(-0.06deg);
+
+
+}
+header{
+    /* Rectangle 1 */
+
+position: absolute;
+width: 1299px;
+height: 127px;
+left: 0px;
+top: 1px;
+
+background: linear-gradient(90deg, #FF9000 0%, #FFBC65 100%);
+transform: rotate(-0.06deg);
+
+}
+.text{
+    /* Чотири сири */
+
+position: absolute;
+width: 278px;
+height: 66px;
+left: 85px;
+top: 132.08px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+
+color: #000000;
+
+transform: rotate(-0.06deg);
+
+}
+.image{
+    /* Rectangle 2 */
+
+position: absolute;
+width: 207.83px;
+height: 227.13px;
+left: 81px;
+top: 200px;
+
+background: url(image.png);
+transform: rotate(-0.06deg);
+z-index: 1;
+}
+.image1{
+     /* Rectangle 3 */
+
+position: absolute;
+width: 265px;
+height: 227px;
+left: 52.19px;
+top: 200px;
+
+background: linear-gradient(180deg, #FFA229 0%, #996119 100%);
+border-radius: 113.5px;
+transform: rotate(-0.06deg);
+
+}
+.image2{
+    /* Rectangle 4 */
+
+position: absolute;
+width: 261px;
+height: 227px;
+left: 355px;
+top: 200px;
+
+background: linear-gradient(180deg, #F99E28 0%, #935D18 100%);
+border-radius: 113.5px;
+transform: rotate(-0.06deg);
+
+}
+.btn{
+    /* Rectangle 13 */
+
+position: absolute;
+width: 198px;
+height: 46px;
+left: 84px;
+top: 520px;
+
+
+background: #FE0F0F;
+border-radius: 39px;
+/* Замовити */
+
+position: absolute;
+width: 173px;
+height: 44px;
+left: 98px;
+top: 375px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 389;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #000000;
+
+z-index: 1;
+top: 400px;
+}
+
+.img2{
+    position: absolute;
+    left: 375px;
+    top: 200px;
+    z-index: 1;
+}
+.text2{
+    /* Пепероні */
+
+position: absolute;
+width: 166px;
+height: 45px;
+left: 410px;
+top: 132px;
+
+font-family: 'Kavoon';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 45px;
+/* identical to box height */
+
+color: #000000;
+
+transform: rotate(-0.06deg);
+
+}
+.btn1{
+    /* Rectangle 14 */
+
+position: absolute;
+width: 198px;
+height: 46px;
+left: 381px;
+top: 400px;
+
+background: #FE0F0F;
+border-radius: 39px;
+
+
+/* Замовити */
+
+position: absolute;
+width: 173px;
+height: 44px;
+left: 395px;
+top: 400px;
+z-index: 1;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.americano{
+    /* Американо */
+
+position: absolute;
+width: 198px;
+height: 44px;
+left: 685.15px;
+top: 132.47px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #000000;
+
+transform: rotate(-0.06deg);
+z-index: 1;
+}
+.imgamericano{
+    /* image 7 */
+
+position: absolute;
+width: 240px;
+height: 240px;
+left: 657px;
+top: 190px;
+
+background: url(image.png);
+transform: rotate(-0.06deg);
+z-index: 1;
+}
+.price{
+    /* Rectangle 32 */
+
+position: absolute;
+width: 108px;
+height: 47px;
+left: 233px;
+top: 196px;
+
+background: #FE0F0F;
+border-radius: 39px;
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+
+/* 100 */
+
+position: absolute;
+width: 62px;
+height: 44px;
+left: 254px;
+top: 195px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+
+/* identical to box height */
+
+color: #000000;
+
+
+z-index: 1;
+
+}
+.price2{
+    /* Rectangle 31 */
+
+position: absolute;
+width: 116px;
+height: 47px;
+left: 532px;
+top: 196px;
+
+background: #FE0F0F;
+border-radius: 39px;
+
+
+/* 120 */
+
+position: absolute;
+width: 62px;
+height: 44px;
+left: 559px;
+top: 194px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #000000;
+z-index: 1;
+
+}
+.button2{
+   /* image 7 */
+
+position: absolute;
+width: 240px;
+height: 240px;
+left: 657px;
+top: 400px;
+
+background: url(image.png);
+transform: rotate(-0.06deg);
+
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 198px;
+height: 46px;
+left: 680px;
+top: 400px;
+
+background: #FE0F0F;
+border-radius: 39px;
+
+
+/* Замовити */
+
+position: absolute;
+width: 173px;
+height: 44px;
+left: 694px;
+top: 400px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #000000;
+z-index: 1;
+
+
+}
+.price3{
+    /* Rectangle 30 */
+
+position: absolute;
+width: 116px;
+height: 47px;
+left: 828px;
+top: 200px;
+
+background: #FE0F0F;
+border-radius: 39px;
+z-index: 1;
+
+/* 120 */
+
+position: absolute;
+width: 62px;
+height: 44px;
+left: 857px;
+top: 198px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.image3{
+    /* Rectangle 12 */
+
+position: absolute;
+width: 261px;
+height: 227px;
+left: 648.19px;
+top: 200px;
+
+background: linear-gradient(180deg, #F99E28 0%, #935D18 100%);
+border-radius: 113.5px;
+transform: rotate(-0.06deg);
+
+}
+.gavaiska{
+    /* image 5 */
+
+position: absolute;
+width: 212px;
+height: 212px;
+left: 966.19px;
+top: 200px;
+
+background: url(image.png);
+transform: rotate(-0.06deg);
+z-index: 1;
+}
+.gavaiskatext{
+    /* Гавайська */
+
+position: absolute;
+width: 180px;
+height: 44px;
+left: 987px;
+top: 132.15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #000000;
+
+transform: rotate(-0.06deg);
+z-index: 1;
+}
+.button3{
+    /* Rectangle 16 */
+
+position: absolute;
+width: 198px;
+height: 46px;
+left: 979px;
+top: 373px;
+
+background: #FE0F0F;
+border-radius: 39px;
+
+
+/* Замовити */
+
+position: absolute;
+width: 173px;
+height: 44px;
+left: 987px;
+top: 400px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #000000;
+z-index: 1;
+
+}
+.price4{
+/* Rectangle 24 */
+
+position: absolute;
+width: 116px;
+height: 47px;
+left: 1143px;
+top: 200px;
+
+background: #FE0F0F;
+border-radius: 39px;
+
+
+/* 90 */
+
+position: absolute;
+width: 45px;
+height: 44px;
+left: 1175px;
+top: 198px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+}
+.image4{
+    /* Rectangle 6 */
+
+position: absolute;
+width: 261px;
+height: 227px;
+left: 944.19px;
+top: 200px;
+
+background: linear-gradient(180deg, #F99E28 0%, #935D18 100%);
+border-radius: 113.5px;
+transform: rotate(-0.06deg);
+
+}
+.choturumiasa{
+    /* image 8 */
+
+position: absolute;
+width: 204px;
+height: 204px;
+left: 81px;
+top: 530px;
+
+background: url(image);
+transform: rotate(-0.06deg);
+z-index: 1;
+}
+.textchoturumiasa{
+    /* Чотири м’яса */
+
+position: absolute;
+width: 234px;
+height: 44px;
+left: 79.95px;
+top: 450px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #000000;
+
+transform: rotate(-0.06deg);
+
+}
+.button4{
+    /* Rectangle 17 */
+
+position: absolute;
+width: 198px;
+height: 46px;
+left: 84px;
+top: 755px;
+
+background: #FE0F0F;
+border-radius: 39px;
+
+
+/* Замовити */
+
+position: absolute;
+width: 173px;
+height: 44px;
+left: 98px;
+top: 710px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #000000;
+z-index: 1;
+
+}
+.price5{
+    /* Rectangle 23 */
+
+position: absolute;
+width: 116px;
+height: 47px;
+left: 227px;
+top: 548px;
+
+background: #FE0F0F;
+border-radius: 39px;
+
+
+/* 100 */
+
+position: absolute;
+width: 62px;
+height: 44px;
+left: 254px;
+top: 516px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #000000;
+z-index: 1;
+
+}
+.image5{
+    /* Rectangle 7 */
+
+position: absolute;
+width: 261px;
+height: 227px;
+left: 52px;
+top: 520.63px;
+
+background: linear-gradient(180deg, #F99E28 0%, #935D18 100%);
+border-radius: 113.5px;
+transform: rotate(-0.06deg);
+
+}
+.margarita{
+ /* image 9 */
+
+position: absolute;
+width: 226px;
+height: 226px;
+top:520px;
+left:375px;
+border-radius: 113px;
+z-index: 1;
+
+
+
+
+
+
+
+}
+.image6{
+    /* Rectangle 8 */
+
+position: absolute;
+width: 261px;
+height: 227px;
+left: 358px;
+top: 520.29px;
+
+background: linear-gradient(180deg, #F99E28 0%, #935D18 100%);
+border-radius: 113.5px;
+transform: rotate(-0.06deg);
+
+}
+.price6{
+    /* Rectangle 22 */
+
+position: absolute;
+width: 116px;
+height: 47px;
+left: 532px;
+top: 549px;
+
+background: #FE0F0F;
+border-radius: 39px;
+
+
+/* 120 */
+
+position: absolute;
+width: 62px;
+height: 44px;
+left: 560px;
+top: 519px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #000000;
+z-index: 1;
+
+
+
+}
+.button5{
+    /* Rectangle 33 */
+
+position: absolute;
+width: 188px;
+height: 46px;
+left: 385px;
+top: 758px;
+
+background: #FE0F0F;
+border-radius: 27px;
+
+
+/* Замовити */
+
+position: absolute;
+width: 173px;
+height: 44px;
+left: 395px;
+top: 710px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #1A1919;
+z-index: 1;
+
+
+}
+.image7{
+    /* Rectangle 9 */
+
+position: absolute;
+width: 261px;
+height: 227px;
+left: 650px;
+top: 520px;
+
+background: linear-gradient(180deg, #F99E28 0%, #935D18 100%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 113.5px;
+transform: rotate(-0.06deg);
+
+
+}
+.karbonara{
+    /* image 10 */
+
+position: absolute;
+width: 206px;
+height: 206px;
+left: 676px;
+top: 530px;
+
+
+
+
+background: url(image.png);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+z-index: 1;
+}
+.button6{
+    /* Rectangle 19 */
+
+position: absolute;
+width: 198px;
+height: 46px;
+left: 680px;
+top: 761px;
+
+background: #FE0F0F;
+border-radius: 39px;
+
+
+/* Замовити */
+
+position: absolute;
+width: 173px;
+height: 44px;
+left: 695px;
+top: 710px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #000000;
+z-index: 1;
+
+}
+.price7{
+/* Rectangle 28 */
+
+position: absolute;
+width: 116px;
+height: 47px;
+left: 830px;
+top: 544px;
+
+background: #FE0F0F;
+border-radius: 39px;
+
+
+/* 100 */
+
+position: absolute;
+width: 62px;
+height: 44px;
+left: 859px;
+top: 520px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #000000;
+z-index: 1;
+
+}
+.textmargarita{
+/* Маргарита */
+
+position: absolute;
+width: 191px;
+height: 44px;
+left: 397.95px;
+top: 447px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #000000;
+
+transform: rotate(-0.06deg);
+
+}
+.textcarbonara{
+    /* Карбонара */
+
+position: absolute;
+width: 192px;
+height: 44px;
+left: 690.95px;
+top: 447px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #000000;
+
+transform: rotate(-0.06deg);
+
+}
+.image8{
+    /* Rectangle 10 */
+
+position: absolute;
+width: 261px;
+height: 227px;
+left: 950px;
+top: 519.63px;
+
+background: linear-gradient(180deg, #F99E28 0%, #935D18 100%);
+border-radius: 113.5px;
+transform: rotate(-0.06deg);
+
+}
+.textdiablo{
+    /* Діабло */
+
+position: absolute;
+width: 120px;
+height: 44px;
+left: 1027px;
+top: 447px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.diablo{
+    /* image 11 */
+
+position: absolute;
+width: 227px;
+height: 227px;
+left: 968px;
+top: 521px;
+
+background: url(image.png);
+transform: rotate(-0.06deg);
+z-index: 1;
+}
+.button7{
+    /* Rectangle 20 */
+
+position: absolute;
+width: 198px;
+height: 46px;
+left: 979px;
+top: 758px;
+
+background: #FE0F0F;
+border-radius: 39px;
+
+
+/* Замовити */
+
+position: absolute;
+width: 173px;
+height: 44px;
+left: 993px;
+top: 710px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #000000;
+z-index: 1;
+
+}
+.price8{
+    /* Rectangle 29 */
+
+position: absolute;
+width: 116px;
+height: 47px;
+left: 1140px;
+top: 544px;
+
+background: #FE0F0F;
+border-radius: 39px;
+
+
+/* 90 */
+
+position: absolute;
+width: 45px;
+height: 44px;
+left: 1175px;
+top: 518px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
